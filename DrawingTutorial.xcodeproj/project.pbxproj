@@ -13,6 +13,8 @@
 		6F3BB1A12474BD380077EDDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3BB19F2474BD380077EDDC /* Main.storyboard */; };
 		6F3BB1A32474BD3F0077EDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F3BB1A22474BD3F0077EDDC /* Assets.xcassets */; };
 		6F3BB1A62474BD3F0077EDDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3BB1A42474BD3F0077EDDC /* LaunchScreen.storyboard */; };
+		6F3BB1AE2474BD650077EDDC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3BB1AD2474BD650077EDDC /* DrawingView.swift */; };
+		6F3BB1B02474BFF30077EDDC /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3BB1AF2474BFF30077EDDC /* UIView+Constraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6F3BB1A22474BD3F0077EDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F3BB1A52474BD3F0077EDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F3BB1A72474BD3F0077EDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3BB1AD2474BD650077EDDC /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		6F3BB1AF2474BFF30077EDDC /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				6F3BB1A22474BD3F0077EDDC /* Assets.xcassets */,
 				6F3BB1A42474BD3F0077EDDC /* LaunchScreen.storyboard */,
 				6F3BB1A72474BD3F0077EDDC /* Info.plist */,
+				6F3BB1AD2474BD650077EDDC /* DrawingView.swift */,
+				6F3BB1AF2474BFF30077EDDC /* UIView+Constraints.swift */,
 			);
 			path = DrawingTutorial;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				6F3BB19E2474BD380077EDDC /* ViewController.swift in Sources */,
 				6F3BB19A2474BD380077EDDC /* AppDelegate.swift in Sources */,
+				6F3BB1B02474BFF30077EDDC /* UIView+Constraints.swift in Sources */,
 				6F3BB19C2474BD380077EDDC /* SceneDelegate.swift in Sources */,
+				6F3BB1AE2474BD650077EDDC /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
